@@ -1,0 +1,6 @@
+i = int(input("Введите число:"))
+for i in range(0):
+        if i % 2 == 1:
+            print("Нечетное")
+        else:
+            print('Четное')
