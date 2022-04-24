@@ -1,0 +1,8 @@
+sred = []
+average = 0
+num = input('Введите числа (0- остановить ввод)')
+while num != '0':
+    sred.append(num)
+    num = input('Введите числа (0- остановить ввод)')
+average = average / len(sred)
+print(average)
