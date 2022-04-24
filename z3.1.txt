@@ -1,7 +1,0 @@
-num = int(input('Введите количество чисел:'))
-a = []
-for i in range(0, num):
-    chisla = int(input("Введите числа:"))
-    a.append(chisla)
-sred = sum(a) / num
-print('Среднее значение',sred)
