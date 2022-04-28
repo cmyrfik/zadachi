@@ -1,0 +1,5 @@
+vozrast = int(input('Введите возраст:'))
+if vozrast >= 14:
+    print('У вас есть паспорт')
+else:
+        print('У вас нет паспорта')
